@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-areas: 
+         "cabe cabe cabe"
+         "brac corp corp"
+         "pern pern pern";
+}
+
+.cabeca{
+    grid-area: cabe;
+    text-align: center;
+    background-color: pink;
+    border-radius: 20px;
+}
+
+.braco{
+    grid-area: brac;
+}
+
+.corpo{
+    grid-area: corp;
+}
+
+.perna{
+    grid-area: pern;
+}
+
+.box{
+     background-color: pink;
+}
+
+.titulo{
+    text-align: center;
+}
+
+.his{
+    height: 290px;
+    align-items: end;
+
+}
+
+.logo{
+    height: 50%;
+    border-radius: 20px;
+}
+
+.b{
+    height: auto;
+}
